@@ -1,23 +1,74 @@
 body {
-    background-color: rgba(8, 15, 23, 1);
+    background-color: #27282b;
 }
 
 
+/*----------------------------------- HEADER -----------------------------------*/
+
+
 .header {
-    width: 70vw;
+    margin-top: 60px;
+    width: 75vw;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     background-color: #858b94;
-    padding: 0 16px;
-    border-radius: 10px;
+    padding: 0 25px;
+    border-radius: 20px;
 }
 
 .header a{
     text-decoration: none;
 }
+
 .header a p {
     color: white;
     font-size: 24px;
+}
+
+
+/*----------------------------------- MAIN BODY -----------------------------------*/
+
+
+main {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3c3d42;
+    border-radius: 30px;
+    margin-top: 100px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+main section {
+    width: 50%;
+    color: whitesmoke;
+}
+
+main section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section p:nth-child(1) {
+    font-size: 36px;
+}
+main section p:nth-child(2) {
+    font-size: 48px;
+}
+main section p:nth-child(3) {
+    font-size: 54px;
+}
+
+main aside {
+    width: 50%;
+    align-items: end;
+}
+
+main aside img {
+    margin: 50px auto;
 }
