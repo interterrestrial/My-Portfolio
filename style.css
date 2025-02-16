@@ -77,17 +77,17 @@ main aside img {
 /*----------------------------------- SERVICES SECTION -----------------------------------*/
 
 
-.services {
+#services {
     width: 90vw;
     margin: 100px auto;
 }
 
-.services h1 {
+#services h1 {
     font-size: 48px;
     color: white;
 }
 
-.services div {
+#services div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -95,7 +95,7 @@ main aside img {
     margin-top: 50px;
 }
 
-.services div div {
+#services div div {
     width: 28%;
     background-color: rgb(69, 66, 66);
     border-radius: 20px;
@@ -103,7 +103,47 @@ main aside img {
     padding: 20px;
 }
 
-.services div div p {
+#services div div p {
     font-size: 30px;
+    color: whitesmoke;
+}
+
+
+/*----------------------------------- ABOUT ME SECTION -----------------------------------*/
+
+
+#about-me {
+    display: flex;
+}
+
+#about-me div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+#about-me div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+#about-me div img {
+    width: 80%;
+    /* height: 90%; */
+    border-radius: 50%;
+}
+
+#about-me div h4 {
+    font-size: 20px;
+    color: white;
+}
+#about-me div h1 {
+    font-size: 42px;
+    color: aliceblue;
+}
+#about-me div p {
+    font-size: 24px;
     color: whitesmoke;
 }
