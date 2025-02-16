@@ -147,3 +147,35 @@ main aside img {
     font-size: 24px;
     color: whitesmoke;
 }
+
+
+/*----------------------------------- Experience Section -----------------------------------*/
+
+
+#academic-and-work-experience {
+    margin: 150px;
+    text-align: center;
+}
+
+#academic-and-work-experience h1 {
+    font-size: 42px;
+    color: white;
+}
+
+#academic-and-work-experience div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#academic-and-work-experience div div {
+    width: 45%;
+    height: 100px;
+    background-color: rgb(69, 66, 66);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#academic-and-work-experience div div h2 {
+    color: aliceblue;
+}
