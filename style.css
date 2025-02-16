@@ -168,14 +168,39 @@ main aside img {
     justify-content: space-between;
 }
 
-#academic-and-work-experience div div {
+.education, .work-exp {
     width: 45%;
-    height: 100px;
     background-color: rgb(69, 66, 66);
     border-radius: 10px;
     padding: 20px;
 }
 
-#academic-and-work-experience div div h2 {
+.education h2 {
     color: aliceblue;
+}
+.work-exp h2 {
+    color: aliceblue;
+}
+
+.education div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.education div div {
+    width: 100%;
+    background-color: #27282b;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#academic-and-work-experience h3 {
+    color: whitesmoke;
+}
+#academic-and-work-experience p {
+    color: whitesmoke;
 }
