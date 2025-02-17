@@ -2,6 +2,16 @@ body {
     background-color: #1f2123;
 }
 
+img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+video:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
 
 /*----------------------------------- HEADER -----------------------------------*/
 
@@ -126,6 +136,11 @@ main aside img {
 #services div div p {
     font-size: 30px;
     color: #e2dfdb;
+}
+
+#services div div:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 
 
@@ -272,6 +287,11 @@ main aside img {
     margin-bottom: 20px;
 }
 
+#academic-and-work-experience div div div:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
 @media (max-width: 768px) {
 
     #academic-qualifications, #work-exp {
@@ -380,4 +400,23 @@ main aside img {
 #socials img {
     height: 180px;
     width: 180px;
+}
+
+
+/*----------------------------------- Projects Section -----------------------------------*/
+
+
+footer {
+    background-color: #596064;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer h2 {
+    font-size: 36px;
+    color: gainsboro;
 }
