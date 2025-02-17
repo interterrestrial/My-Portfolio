@@ -110,6 +110,19 @@ main aside img {
 }
 
 
+@media (max-width: 768px) {
+
+    #services div {
+        display: block;
+    }
+
+    #services div div {
+        width: 100%;
+    }
+
+}
+
+
 /*----------------------------------- ABOUT ME SECTION -----------------------------------*/
 
 
@@ -224,6 +237,22 @@ main aside img {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+
+    #academic-qualifications, #work-exp {
+        display: block;
+    }
+
+    #academic-qualifications div {
+        width: 100%;
+    }
+
+    #work-exp div {
+        width: 100%;
+    }
+
+}
+
 
 /*----------------------------------- Projects Section -----------------------------------*/
 
@@ -269,10 +298,23 @@ main aside img {
 .projects-made div video{
     width: 80%;
     height: 80%;
+    border-radius: 20px;
 }
 
 .projects-made div img{
     width: 95%;
     height: 100%;
     border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .projects-made {
+        display: block;
+    }
+
+    .projects-made div {
+        width: 100%;
+    }
+
 }
