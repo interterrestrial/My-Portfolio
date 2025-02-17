@@ -17,7 +17,7 @@ video:hover {
 
 
 .header {
-    margin-top: 60px;
+    margin-top: 30px;
     width: 75vw;
     display: flex;
     justify-content: space-between;
@@ -35,6 +35,11 @@ video:hover {
 .header a p {
     color: white;
     font-size: 24px;
+}
+
+.header a p:hover {
+    transform: scale(1.2); 
+    transition-duration: 0.2s;
 }
 
 
@@ -362,6 +367,11 @@ main aside img {
     border-radius: 20px;
 }
 
+.projects-made:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
 @media (max-width: 768px) {
 
     .projects-made {
@@ -395,6 +405,7 @@ main aside img {
 #socials div {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #socials img {
