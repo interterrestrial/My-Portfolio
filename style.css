@@ -1,5 +1,5 @@
 body {
-    background-color: #27282b;
+    background-color: #1f2123;
 }
 
 
@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    background-color: #858b94;
+    background-color: #596064;
     padding: 0 25px;
     border-radius: 20px;
 }
@@ -35,7 +35,7 @@ main {
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
-    background-color: #3c3d42;
+    background-color: #2f3335;
     border-radius: 30px;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -46,7 +46,7 @@ main {
 
 main section {
     width: 50%;
-    color: whitesmoke;
+    color: #e2dfdb;
 }
 
 main section div {
@@ -85,7 +85,7 @@ main aside img {
 
 #services h1 {
     font-size: 48px;
-    color: white;
+    color: #e8e6e3;
 }
 
 #services div {
@@ -98,7 +98,7 @@ main aside img {
 
 #services div div {
     width: 28%;
-    background-color: rgb(69, 66, 66);
+    background-color: #333739;
     border-radius: 20px;
     margin-bottom: 70px;
     padding: 20px;
@@ -106,7 +106,7 @@ main aside img {
 
 #services div div p {
     font-size: 30px;
-    color: whitesmoke;
+    color: #e2dfdb;
 }
 
 
@@ -139,15 +139,15 @@ main aside img {
 
 #about-me div h4 {
     font-size: 20px;
-    color: white;
+    color: #e8e6e3;
 }
 #about-me div h1 {
     font-size: 42px;
-    color: aliceblue;
+    color: #c2e4ff;
 }
 #about-me div p {
     font-size: 24px;
-    color: whitesmoke;
+    color: #e2dfdb;
 }
 
 
@@ -161,12 +161,12 @@ main aside img {
 
 #academic-and-work-experience h1 {
     font-size: 48px;
-    color: white;
+    color: #e8e6e3;
 }
 
 #academic-qualifications, #work-exp {
     display: flex;
-    background-color: rgb(69, 66, 66);
+    background-color: #333739;
     border-radius: 10px;
     padding: 50px;
     width: 75vw;
@@ -177,7 +177,7 @@ main aside img {
 
 #academic-qualifications h2 {
     width: 50%;
-    color: aliceblue;
+    color: #c2e4ff;
     font-size: 32px;
 }
 
@@ -192,7 +192,7 @@ main aside img {
     padding: 20px;
     padding-right: 0;
     border-radius: 20px;
-    color: whitesmoke;
+    color: #e2dfdb;
 }
 
 #academic-and-work-experience h3 {
@@ -205,7 +205,7 @@ main aside img {
 
 #work-exp h2 {
     width: 50%;
-    color: aliceblue;
+    color: #c2e4ff;
     font-size: 32px;
 }
 
@@ -219,7 +219,7 @@ main aside img {
     text-align: left;
     padding: 20px;
     border-radius: 20px;
-    color: whitesmoke;
+    color: #e2dfdb;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -235,22 +235,22 @@ main aside img {
 
 #projects h1 {
     font-size: 48px;
-    color: white;
+    color: #e8e6e3;
 }
 
 #projects h3 {
     font-size: 36px;
-    color: aliceblue;
+    color: #c2e4ff;
 }
 
 #projects p {
     font-size: 24px;
-    color: whitesmoke;
+    color: #e2dfdb;
 }
 
 .projects-made {
     width: 100%;
-    background-color: rgb(69, 66, 66);
+    background-color: #333739;
     border-radius: 15px;
     padding: 20px;
     display: flex;
