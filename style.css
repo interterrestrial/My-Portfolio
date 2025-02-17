@@ -38,6 +38,7 @@ main {
     background-color: #3c3d42;
     border-radius: 30px;
     margin-top: 100px;
+    margin-bottom: 50px;
     display: flex;
     padding-left: 30px;
     padding-top: 30px;
@@ -114,6 +115,7 @@ main aside img {
 
 #about-me {
     display: flex;
+    padding: 50px;
 }
 
 #about-me div:nth-child(1) {
@@ -154,7 +156,7 @@ main aside img {
 
 #academic-and-work-experience {
     margin: 150px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #academic-and-work-experience h1 {
@@ -162,45 +164,62 @@ main aside img {
     color: white;
 }
 
-#academic-and-work-experience div {
-    margin-top: 50px;
+#academic-qualifications, #work-exp {
     display: flex;
-    justify-content: space-between;
-}
-
-.education, .work-exp {
-    width: 45%;
     background-color: rgb(69, 66, 66);
     border-radius: 10px;
-    padding: 20px;
+    padding: 50px;
+    width: 75vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-.education h2 {
+#academic-qualifications h2 {
+    width: 50%;
     color: aliceblue;
-}
-.work-exp h2 {
-    color: aliceblue;
+    font-size: 32px;
 }
 
-.education div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left;
+#academic-qualifications div {
+    width: 50%;
 }
 
-.education div div {
+#academic-qualifications div div {
     width: 100%;
     background-color: #27282b;
     text-align: left;
     padding: 20px;
+    padding-right: 0;
     border-radius: 20px;
+    color: whitesmoke;
 }
 
 #academic-and-work-experience h3 {
-    color: whitesmoke;
+    font-size: 30px;
 }
+
 #academic-and-work-experience p {
+    font-size: 20px;
+}
+
+#work-exp h2 {
+    width: 50%;
+    color: aliceblue;
+    font-size: 32px;
+}
+
+#work-exp div {
+    width: 50%;
+}
+
+#work-exp div div {
+    width: 95%;
+    background-color: #27282b;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
     color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
