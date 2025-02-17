@@ -67,11 +67,30 @@ main section p:nth-child(3) {
 
 main aside {
     width: 50%;
-    align-items: end;
+    display: flex;
+    /* align-items: end; */
 }
 
 main aside img {
     margin: 50px auto;
+}
+
+@media (max-width: 768px) {
+
+    main {
+        display: block;
+    }
+
+    main section {
+        width: 100%;
+    }
+
+    main aside {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
 }
 
 
@@ -150,10 +169,10 @@ main aside img {
     border-radius: 50%;
 }
 
-#about-me div h4 {
+/* #about-me div h4 {
     font-size: 20px;
     color: #e8e6e3;
-}
+} */
 #about-me div h1 {
     font-size: 42px;
     color: #c2e4ff;
@@ -161,6 +180,22 @@ main aside img {
 #about-me div p {
     font-size: 24px;
     color: #e2dfdb;
+}
+
+@media (max-width: 768px) {
+
+    #about-me {
+        display: block;
+    }
+
+    #about-me div:nth-child(1) {
+        width: 100vw;
+    }
+
+    #about-me div:nth-child(2) {
+        width: 100vw;
+    }
+
 }
 
 
